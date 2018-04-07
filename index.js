@@ -23,6 +23,6 @@ function deleteFromObjectByKey(obj, key){
 
 function destructivelyDeleteFromObjectByKey(obj, key){
  // var newObj = destructivelyDeleteFromObjectByKey(obj, 'prop');
-  delete obj.key;
+  delete obj.prop;
   return obj;
 }
