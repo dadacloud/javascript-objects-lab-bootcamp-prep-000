@@ -5,3 +5,6 @@ function updateObjectWithKeyAndValue(object, key, value) {
   Object.assign({prop2 : 2}, recipes)
 }
 
+function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
+  
+}
