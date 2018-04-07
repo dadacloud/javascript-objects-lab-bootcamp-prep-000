@@ -17,12 +17,11 @@ function destructivelyUpdateObjectWithKeyAndValue(obj, key, value){
 function deleteFromObjectByKey(obj, key){
   //var obj = { prop: 1 };
   var newObj = Object.assign({},obj);
-  delete newObj.prop;
+  delete newObj.prop;//same as lower delete comment
   return newObj;
 }
 
 function destructivelyDeleteFromObjectByKey(obj, key){
- // var newObj = destructivelyDeleteFromObjectByKey(obj, 'prop');
-  delete obj.prop;
+  delete obj.prop; //I shouldn't have to name the key. Why does it only work if I name the key? This is a very limited function
   return obj;
 }
